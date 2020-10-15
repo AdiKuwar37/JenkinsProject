@@ -6,6 +6,6 @@ node('master') {
       echo 'Testing..'
    }
    stage('Deploy') {
-     echo 'Deploying....'
+     sh "pwd"
    }
 }
