@@ -6,7 +6,7 @@ node('master') {
       echo 'Testing..'
    }
    stage('Deploy') {
-     sshagent (credentials: ['cc22f551-f409-47f0-8f54-01478773b1a6']) {
+     sshagent (credentials: ['9fbaa4de-9744-4954-81a6-c82711349737']) {
         sh "git clone https://github.com/AdiKuwar37/npmjs-publish.git"
      }
    }
